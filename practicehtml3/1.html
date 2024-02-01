@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+        }
+
+        section {
+            float: left;
+            width: 60%;
+            padding: 20px;
+        }
+
+        aside {
+            float: left;
+            width: 20%;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav, section, aside {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Web Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <
